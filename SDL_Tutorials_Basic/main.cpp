@@ -48,6 +48,5 @@ int main(int argc, const char * argv[]) {
     //quit clean
     SDL_Quit();
     
-    
     return EXIT_SUCCESS;
 }
