@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
         std::cout << "SDL could not initialize! SDL Error: " << SDL_GetError() << std::endl;
     }
     
-    SDL_Window *window = SDL_CreateWindow("Hello Coco!", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WIDTH, HEIGHT, SDL_WINDOW_ALLOW_HIGHDPI);
+    SDL_Window *window = SDL_CreateWindow("Hello World!", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WIDTH, HEIGHT, SDL_WINDOW_ALLOW_HIGHDPI);
     
     //if window doesn't get completed
     if (NULL == window) {
